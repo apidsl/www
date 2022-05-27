@@ -83,16 +83,14 @@ With apiDSL it's such easy, there are two options of usage:
 ### How it works?
 
 skrypt **apidsl.sh** Parsuje skrypty zapisywane w formacie: funkcja("parametr") i uruchamia w shellu przygotowane skrypty odnoszące się do nazyw plików:
+
 /apidsl/bash/*.sh
 
-load -> /apidsl/bash/load.sh
+**load** -> /apidsl/bash/**load.sh**
 
-load("plik.txt") -> ./apidsl/bash/load.sh "plik.txt"
+load(**"plik.txt"**) -> ./apidsl/bash/load.sh **"plik.txt"**
 
-The comments are removed
-+ //
-+ #
-
+The lines with comments such: "**//**" , "**#**" are removed.
 
 
 ## FUNCTIONS [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/apidsl/www/edit/main/DOCS/FUNCTIONS.md)
