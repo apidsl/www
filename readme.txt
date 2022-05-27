@@ -1,7 +1,7 @@
 ./DOCS/MENU.md
 ./DOCS/ABOUT.md
 ../bash/DOCS/SUPPORTED.md
-./DOCS/DOCS.md
+../bash/DOCS/HOW.md
 ./DOCS/FUNCTIONS.md
 ./DOCS/EXAMPLES.md
 ../bash/DOCS/TODO.md

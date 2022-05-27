@@ -77,12 +77,10 @@ With apiDSL it's such easy, there are two options of usage:
 + xml
 
 
-## Docs [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/apidsl/www/edit/main/DOCS/DOCS.md)
+## How it works? [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/apidsl/bash/edit/main/DOCS/HOW.md)
 
 
-### How it works?
-
-skrypt **apidsl.sh** Parsuje skrypty zapisywane w formacie: funkcja("parametr") i uruchamia w shellu przygotowane skrypty odnoszące się do nazyw plików:
+skrypt **apidsl.sh** Parsuje skrypty zapisywane w formacie: **funkcja("parametr")** i uruchamia w shellu przygotowane skrypty odnoszące się do nazyw plików:
 
 /apidsl/bash/*.sh
 
@@ -91,6 +89,16 @@ skrypt **apidsl.sh** Parsuje skrypty zapisywane w formacie: funkcja("parametr") 
 load(**"plik.txt"**) -> ./apidsl/bash/load.sh **"plik.txt"**
 
 The lines with comments such: "**//**" , "**#**" are removed.
+
+
+
+### Zależności 
+Mapowanie projektów z git
+
+ładowane z repozytoriów git, jak github, gitlab, bitbucket
++ zamiast xpath - ładowanie zalezności przez skrypt github
++ letPath - przygotować
+  https://github.com/letpath/bash
 
 
 ## FUNCTIONS [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/apidsl/www/edit/main/DOCS/FUNCTIONS.md)
@@ -203,18 +211,15 @@ load("path.txt").load()
 
 ## TODO [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/apidsl/bash/edit/main/DOCS/TODO.md)
 
-### Zalezności ładowane z github
-+ zamiast xpath - ładowanie zalezności przez skrypt github 
-+ letPath - przygotować
-  https://github.com/letpath/bash
-
 ### Mapowanie
 
-+ mapowanie projektów z git
-+ mapowanie funkcji z linuxa
-+ mapowanie funckji uslug w linux
-+ mapowanie API
-  + Skąd pobierać dane autoryzacyjne?
+#### mapowanie funkcji z linuxa:
+curl().grep("ri",)
+
+#### mapowanie funckji uslug w linux
+
+#### mapowanie API
++ Skąd pobierać dane autoryzacyjne?
  
 
 
@@ -225,6 +230,9 @@ load("path.txt").load()
 
 install
 https://github.com/apidsl/ultimate-nmap-parser
+
+
+### Inframonit
 
 skanuje hosty
 git clone https://github.com/desecsecurity/parsing_html_bash
@@ -256,29 +264,13 @@ jquery.get("simpleargs")
 .git("push");
 
 
-curl().grep("ri",)
 
 
+### Preprocessing
 
-kazdy z tych jest w fodlerze ze skryptami, gdzie kolejno podaje sie wartosci
+Każdy z tych jest w fodlerze ze skryptami, gdzie kolejno podaje sie wartosci
 + values
 + context - before, next command
-
-
-
-convert camel to .sh bash file
-and execute
-each time is ;
-
-
-
----
-
-get options
-https://reposhub.com/linux/system-utilities/ko1nksm-getoptions.html
-
-https://github.com/ko1nksm/getoptions
-
 
 
 
