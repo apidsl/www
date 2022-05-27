@@ -1,0 +1,4 @@
+# Example of functions to bash converter
+load("path.txt")
+.load()
+
