@@ -1,5 +1,6 @@
-# [www.apidsl.com](https://www.apidsl.com/)
+![logo.apidsl.com](https://logo.apidsl.com/2/cover.png)
 
+# [www.apidsl.com](https://www.apidsl.com/)
 
 + How to improve your prototyping efficiency to produce live solutions in minutes?
 + How to make it without expensive tools with long term to learn?
@@ -19,7 +20,7 @@ Users work with the DSL in command line or another tools depends, language.
 
 ## What is apiDSL?
 
-[bash.apidsl.com](https://bash.apidsl.com/) is a wrapper for bash scripts
+[bash.apidsl.com](https://bash.apidsl.com/) is a wrapper for bash scripts to make own DSL
 
 How to work with modern business domain with different languages and environments?
 With apiDSL it's such easy, there are two options of usage:
