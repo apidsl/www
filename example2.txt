@@ -1,0 +1,7 @@
+# Example of functions to bash converter
+load("domains.txt")
+.split("/n")
+.http()
+.xpath("title")
+.appendToFile("titles.txt")
+
