@@ -63,7 +63,9 @@ http("https://www.rezydent.de/")
 
 ## Example 2
 
-Load many domains from file and save the title list to another file
+Load many **domains** from a file, download **webpage** html file, extract **title** tag from html, save to another the **list of title**
+
+File: [**example2.txt**](example2.txt)
 
 ```js
 load("domains.txt")
@@ -88,5 +90,11 @@ load("domains.txt")
 
 # Tags
 
-scripts 
-language
++ scripts 
++ language
++ Domain-Specific Languages
+
+---
+
++ [edit](https://github.com/apidsl/www/edit/main/README.md)
++ [apidsl/www](https://github.com/apidsl/www)
