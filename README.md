@@ -1,15 +1,40 @@
 # [www.apidsl.com](https://www.apidsl.com/)
 
-## What is apidsl?
-How to make your own DevOps tool?
+
++ How to improve your prototyping efficiency to produce live solutions in minutes?
++ How to make it without expensive tools with long term to learn?
++ How to bring your Development on the next level?
+
+Get Started with Domain-Specific Languages
+
+## What is DSL?
+
+
+What can you do with a Domain-Specific Language?
+
+A domain-specific language is a notation, designed to be used for a particular purpose. 
+In a DSL, you can define the types of model element and their relationships.
+When you have designed a DSL, you can distribute it as part of a Code with decentralised (on git repositoriess) packages. 
+Users work with the DSL in command line or another tools depends, language.
+
+## What is apiDSL?
 
 [bash.apidsl.com](https://bash.apidsl.com/) is a wrapper for bash scripts
-There are two options of usage:
+
+How to work with modern business domain with different languages and environments?
+With apiDSL it's such easy, there are two options of usage:
 + directly from command line such param of apidsl.sh script
 + run (example.txt) file script
 
 + [Examples of usage - examples.apidsl.com](http://examples.apidsl.com)
 + [Sourcecode - bash.apidsl.com](http://bash.apidsl.com)
+
+
+### Supported Languages:
++ js
++ php
++ bash
++ python
 
 
 ## Example 1 
@@ -58,3 +83,9 @@ load("domains.txt")
 ```bash
 ./apidsl.sh 'load("domains.txt").split("/n").http().xpath("title").appendToFile("titles.txt")'
 ```
+
+
+# Tags
+
+scripts 
+language
