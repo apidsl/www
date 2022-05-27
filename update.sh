@@ -4,7 +4,7 @@ while IFS= read -r git_repo; do
   echo "UPDATE PROJECT: ${repo[1]}/  FROM REPO:  (${repo[0]})"
   cd ${repo[1]} && git pull
   cd ..
-done < "install.txt"
+done < "projects.txt"
 exit
 
 echo "UPDATE: infraMonit.com"
