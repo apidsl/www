@@ -10,9 +10,9 @@
 Get Started with Domain-Specific Languages
 
 
-## About [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/apidsl/www/edit/main/DOCS/ABOUT.md)
+## About apidsl [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/apidsl/www/edit/main/DOCS/ABOUT.md)
 
-I did last time some wrapper for bash, python, ... with such format: load("domains.txt")
+I did last time some wrapper for bash, python, ... with such format: **load("domains.txt")**
 I am using it to build multiplatform scripts, where the same sentence will be executed on PHP, Python, JS, ...
 
 ### The Inspiration was coming from such projects:
