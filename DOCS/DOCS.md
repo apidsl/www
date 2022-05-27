@@ -2,24 +2,14 @@
 ## Docs [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/apidsl/www/edit/main/DOCS/DOCS.md)
 
 
-### Co robi apidsl?
+### How it works?
 
-Parsuje skrypty zapisywane w formacie: funkcja("parametr") i uruchamia w shellu
+skrypt **apidsl.sh** Parsuje skrypty zapisywane w formacie: funkcja("parametr") i uruchamia w shellu przygotowane skrypty odnoszące się do nazyw plików:
+/apidsl/bash/*.sh
 
-### Parsowanie
+load -> /apidsl/bash/load.sh
 
-Parsowanie następuje na dwie zmienne:
-
-key: funkcja
-value: parametr
-
-W rezultacie zmiast pisać:
-
-    grep -ri "$FIND" "$WHOIS_FILE"
-
-piszemy:
-
-    grep("ri","$FIND", "$WHOIS_FILE").print()
+load("plik.txt") -> ./apidsl/bash/load.sh "plik.txt"
 
 The comments are removed
 + //
