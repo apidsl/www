@@ -3,7 +3,7 @@
 # [www.apidsl.com](https://www.apidsl.com/)
 
 + How to improve your prototyping efficiency to produce live solutions in minutes?
-+ How to make it without expensive tools with long term to learn?
++ How to make it without expensive tools with long term learn curve?
 + How to bring your Development on the next level?
 
 Get Started with Domain-Specific Languages
@@ -57,7 +57,7 @@ http("https://www.rezydent.de/")
 
 ### run script in one line command
 
-```bash
+```shell
 ./apidsl.sh 'http("https://www.rezydent.de/").xpath("title").save("title.txt")'
 ```
 
