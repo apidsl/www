@@ -54,6 +54,7 @@ load("domains.txt")
 ## Example 3
 
 Load file **path** from a file: [**path.txt**](path.txt), show **file** from the **path** 
+On the end we see not the content from [**path.txt**](path.txt) file, but content from pathwhich was inside the file and is loaded through the second function.
 
 File: [**example3.txt**](example3.txt)
 
