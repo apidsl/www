@@ -96,15 +96,15 @@ Universal format regardless of the environment
 
 USAGE in terminal or another platform language, e.g.
 
-+ apidsl.sh
-+ apidsl.php
-+ apidsl.js
-+ apidsl.py
++ apidsl **.sh**
++ apidsl **.php**
++ apidsl **.js**
++ apidsl **.py**
 
 
 With apiDSL it's such easy, there are two options of usage:
-+ directly from command line such param of **apidsl.sh/py/js/php** script
-+ run **example.txt** file script with **apidsl.sh/py/js/php** script
++ directly from command line such param of apidsl.*  **.sh .py .js .php** script
++ run **example.txt** file script with apidsl.*  **.sh .py .js .php** script
 
 ### Functions
 
