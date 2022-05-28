@@ -7,3 +7,8 @@
 + How to bring your Development on the next level?
 
 Get Started with Domain-Specific Languages
+
+# [Sourcecode - bash.apidsl.com](https://bash.apidsl.com/) [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/apidsl/bash/edit/main/DOCS/MENU.md)
++ [Examples - examples.apidsl.com](http://examples.apidsl.com)
++ [Documentation - docs.apidsl.com](https://docs.apidsl.com/)
++ [Logotyp: logo.apidsl.com](https://logo.apidsl.com/)
