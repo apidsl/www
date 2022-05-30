@@ -1,8 +1,8 @@
-#!/bin/bash
-PROJECT_LIST="projects.txt"
-while IFS= read -r git_repo; do
-  repo=( $git_repo )
-  echo "INSTALL PROJECT: ${repo[1]}/  FROM REPO:  (${repo[0]})"
-  echo "${repo[1]}" >> .gitignore
-  git clone ${git_repo}
-done <"$PROJECT_LIST"
+curl https://raw.githubusercontent.com/apifork/bash/main/apifork.sh -o apifork
+./apifork init
+curl https://raw.githubusercontent.com/flatedit/bash/main/flatedit.sh -o flatedit
+./flatedit init
+curl https://raw.githubusercontent.com/apipackage/bash/main/apipackage.sh -o apipackage
+./apipackage init
+curl https://raw.githubusercontent.com/apidsl/bash/main/apidsl.sh -o apidsl
+./apidsl init

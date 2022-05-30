@@ -243,6 +243,45 @@ load("path.txt").load()
 
 ### Mapowanie
 
+skrypty zapisywać w folderze głównym
+
+zamiast w folderach, kazdy skrypt z kropkami
+jeśli piszemy 
+
+letwhois.ns()
+plik:
+letwhois.ns.sh
+
+kazda funkcja jest przepisywana żeby mieć do niej dostęp z jednego poziomu bez przechodzenia po folderach
+
+uproszcenie zarządzania i wyswietlanie listy plików
+
+każda funkcja i tak musi działać autopnimicznie
+
+skrypt instalujący kopiuje wszystkie skrypty bezposrednio
+
+https://github.com/letwhois/bash apidsl/apidsl/bash letwhois
+
+apidsl/apidsl/bash/letwhois/reverseIp.sh 
+
+repozytiorium
+https://github.com/letwhois/bash
+
+mapa funkcji
+apidsl/apidsl/bash/letwhois/reverseIp.sh reverseIp
+
+1. pobiera cale repo
+https://github.com/letwhois/bash
+
+2. wyodrebnia poprzez mapowanie
+domainIp.sh domainIp
+domainIp.sh letwhois.domainIp
+
+
+
+
+
+
 #### mapowanie funkcji z linuxa:
 curl().grep("ri",)
 
