@@ -25,6 +25,22 @@ I am using it to build multiplatform scripts, where the same sentence will be ex
 + [jQuery, DOM Traversal and Manipulation](https://jquery.com/)
 + [Apache Camel uses a Java Domain Specific Language or DSL for creating Enterprise Integration Patterns or Routes in a variety of domain-specific languages (DSL)](https://camel.apache.org/manual/dsl.html)
 
+## What is a DSL to software?
+
+We are using just a part (NLP) of AI on DIALOGWARE platform.
+We build hashtag #text2software  , the hashtag #text2code  is nothing special for today. Self managed DSL is the key.
+
+### What is a self-managed DSL?
+
+
+ A self-managed Domain-Specific Language (DSL) is a type of DSL that is designed to be managed by the user and not a programming language. Unlike traditional programming languages, a self-managed DSL is designed to be used in specific domains and can be used to quickly and easily write code for tasks related to that domain. For example, a self-managed DSL for database management could be used by a database administrator to quickly and easily create and manage a database. 
+ 
+ 
+### self-managed or managed by the user?
+
++ What does "managed by the user" mean? Change the language definition or write code using the language?
+  
+It's mean that as a User I am able to create any function without changing the language, the name of function is the name of filename of script which represent the function. On APIDSL we are basing on shell scripts, so it's easy to build modular DSL with based on git external dependencies. Managed by the user means that the user has complete control over the development and use of the self-managed DSL. This includes the ability to define the functions of the language.
 
 ### What is DSL?
 
